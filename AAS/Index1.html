@@ -5,46 +5,158 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="../CSS/material-kit.css">
+
+    <!-- https://material.io/resources/icons/?style=baseline -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+rel="stylesheet">
+<!-- https://material.io/resources/icons/?style=outline -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+rel="stylesheet">
+<!-- https://material.io/resources/icons/?style=round -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round"
+rel="stylesheet">
+<!-- https://material.io/resources/icons/?style=sharp -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp"
+rel="stylesheet">
+<!-- https://material.io/resources/icons/?style=twotone -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone"
+rel="stylesheet">
+
+<link rel="stylesheet" type="text/css"
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+
     <title>App Anti Suicidio</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-primary">
+    <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#" style="font-size: 30px;">AAS</a>
             <a class="nav-link active" aria-current="page" href="Index1.html" style="color:white; font-size: 20px;">Que es?</a>
             <a class="nav-link" href="index3.html" style="color:white; font-size: 20px;">Contactos</a>
         </div>
     </nav>
-    <div>
-        <h1>Que es el suicidio?</h1>
-        <p>Es el acto de quitarse deliberadamente la propia vida. El comportamiento suicida es cualquier acción que pudiera llevar a una persona a morir, como tomar 
-            una sobredosis de medicamentos o estrellar un automóvil a propósito.</p>
+    <div class="page-header container-raised" data-parallax="true" style="background-image: url(../IMG/sad-505857_640.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h1 class="title">¿Qué es el suicidio?</h1>
+                    <h2 class="lead">Es el acto de quitarse deliberadamente la propia vida. El comportamiento suicida es cualquier acción que pudiera llevar a una persona a morir, como tomar 
+                        una sobredosis de medicamentos o estrellar un automóvil a propósito.</h2>
+                </div>
+            </div>
+        </div>
     </div>
-    <div>    
-        <h3>Causas</h3>
-        <p style="font-size: 18px;">El suicidio y los comportamientos suicidas generalmente ocurren en personas con uno o más de los siguientes factores:</p>
-        <p>~Trastorno bipolar</p>
+
+    <div class="container text-center">
+
+        <h3 class="description">Causas
+            <br>
+            <small>El suicidio y los comportamientos suicidas generalmente ocurren en personas con uno o más de los siguientes factores:</small></h3>
+        <div class="col card-deck mr-auto ml-auto">
+            <div class="card card-raised md-3 ">
+                <img src="../IMG/bipolaridad.jpg" alt="" class="card-img-top img-fluid mr-auto ml-auto" style="width: 50%;">
+                <div class="card-body">
+                    <h3 class="card-subtitule mb-2 ">Transtorno bipolar</h3>
+                    <!-- <h4 class="card-subtitule mb-2 text-muted">Trastorno que provoca altibajos emocionales, que van desde trastornos de depresión hasta episodios maníacos</h2> -->
+                </div>
+            </div>
+            <div class="card card-raised md-3 ">
+                <img src="../IMG/limite-person.jpg" alt="" class="card-img-top img-fluid mr-auto ml-auto" style="width: 97%;">
+                <div class="card-body">
+                    <h3 class="card-subtitule mb-2 ">Transtorno límite de la personalidad</h3>
+                    <!-- <h4 class="card-subtitule mb-2 text-muted">Trastorno mental caracterizado por estados de ánimo, comportamiento y relaciones inestables.</h2> -->
+                </div>
+            </div>
+            <div class="card card-raised md-2 ">
+                <img src="../IMG/depression.jpg" alt="" class="card-img-top img-fluid mr-auto ml-auto" style="width: 55%;">
+                <div class="card-body">
+                    <h3 class="card-subtitule mb-2 ">Transtorno de depresión</h3>
+                    <!-- <h4 class="card-subtitule mb-2 text-muted">Trastorno de salud mental que se caracteriza por depresión persistente o pérdida de interés en las actividades, lo que puede causar dificultades significativas en la vida cotidiana</h2> -->
+                </div>
+            </div>
+            <div class="card card-raised md-2 ">
+                <img src="../IMG/drugs.jpg" alt="" class="card-img-top img-fluid mr-auto ml-auto" style="width: 100%;">
+                <div class="card-body">
+                    <h3 class="card-subtitule mb-2 ">consumo de drogas</h3>
+                
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- <p>~Trastorno bipolar</p>
         <p>~Trastorno límite de la personalidad</p>
         <p>~Depresión</p>
         <p>~Consumo de drogas o alcohol</p>
         <p>~Trastorno de estrés postraumático (TEPT)</p>
         <p>~Esquizofrenia </p>
         <p>~Historial de abuso sexual, físico y emocional</p>
-        <p>~Cuestiones de vida estresantes, como problemas serios a nivel financiero o en las relaciones interpersonales</p>
+        <p>~Cuestiones de vida estresantes, como problemas serios a nivel financiero o en las relaciones interpersonales</p> -->
     </div>
-    <div>    
-        <h1>Que es esta pagina?</h1>
-        <p>Esta pagina esta hecha para ofrecer opciones de ayuda para así proporcionar una mejora del estado de salud dando información oportuna ante situaciones de crisis. </p>
+<br>
+<br>
+<br>
+    <div class="main main-raised">
+        <div class="container">
+            <div class="section text-center">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto">
+                        <h2 class="title">¿Qué es esta página?</h2>
+                        <h5 class="description">Esta pagina esta hecha para ofrecer opciones de ayuda para así proporcionar una mejora del estado de salud dando información oportuna ante situaciones de crisis. </h5>
+                    </div>
+                </div>
+                <div class="features">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="info">
+                                <div class="icon icon-info">
+                                    <i class="material-icons">chat</i>
+                                </div>
+                                <h1 class="info-title">Platica con nosotros</h1>
+                                <p>Si necesitas solo ser escuchado, animate a entrar a uno de nuestros foros de ayuda</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="info">
+                                <div class="icon icon-primary">
+                                    <i class="material-icons">people</i>
+                                </div>
+                                <h1 class="info-title">Grupo de trabajo</h1>
+                                <p>Nuestra comunidad cuenta con un conjunto de personas especializadas en el área con quienes puedes contar</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="info">
+                                <div class="icon icon-success">
+                                    <i class="material-icons">quizz</i>
+                                </div>
+                                <h1 class="info-title">Quizz</h1>
+                                <p>Contamos con un Quizz para determinar que tipo de ayuda necesitas, totlamente confidencial</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div>
+
         <center>
             <h2>Crees que estas en una situacion donde el suicidio es una opcion?</h2>
             <button class="btn btn-primary btn-lg" style="font-size: 20px; background-color:white;"><a href="index2.html">Si</a></button>
         </center>
     </div>
+
+    <!--Implementación de los scripts-->
+    <script src="./js/init/jquery.min.js"></script>
+    <script src="./js/init/popper.min.js"></script>
+    <script src="./js/init/bootstrap-material-design.min.js"></script>
+    <script src="./js/init/moment.min.js"></script>
+    <script src="./js/init/bootstrap-datetimepicker.js"></script>
+    <script src="./js/init/nouislider.min.js"></script>
+    <script src="./js/init/material-kit.js"></script>
+
 </body>
 
 </html>
